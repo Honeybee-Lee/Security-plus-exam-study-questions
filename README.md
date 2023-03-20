@@ -97,6 +97,95 @@ B. Whaling<br>
 C. Phishing<br>
 D. Smishing<br>
 
+11. A security analyst has identified malware spreading through the corporate network and has activated the CSIRT.
+Which of the following should the analyst do NEXT?<br>
+
+A. Review how the malware was introduced to the network.<br>
+B. Attempt to quarantine all infected hosts to limit further spread.<br>
+C. Create help desk tickets to get infected systems reimaged.<br>
+D. Update all endpoint antivirus solutions with the latest updates.<br>
+
+12. A cloud service provider has created an environment where customers can connect existing local networks to the cloud
+for additional computing resources and the block internal HR applications from reaching the cloud.
+Which of the following cloud models is being used?
+*This isn't a question, but there are some similar on the exam*
+A. Public<br>
+B. Community<br>
+C. Hybrid<br>
+D. Private<br>
+
+13. Which of the following is an effective tool to stop or prevent the exfiltration of data from a network?
+*This isn't a question, but there are some similar on the exam*
+
+A. DLP<br>
+B. NIDS<br>
+C. TPM<br>
+D. FDE<br>
+
+14. Which of the following describes the exploitation of an interactive process to gain access to restricted areas?
+
+A. Persistence<br>
+B. Buffer overflow<br>
+C. Privilege escalation<br>
+D. Pharming<br>
+
+15. Which of the following will increase cryptographic security?
+
+A. High data entropy<br>
+B. Algorithms that require less computing power<br>
+C. Longer key longevity<br>
+D. Hashing<br>
+
+16. An organization discovered files with proprietary financial data have been deleted. The files have been recovered from
+backup, but every time the Chief Financial Officer logs in to the file server, the same files are deleted again. No other
+users are experiencing this issue.
+Which of the following types of malware is MOST likely causing this behavior?<br>
+*Not sure if this was a question, but answer was in a simulation question*
+
+A. Logic bomb<br>
+B. Cryptomalware<br>
+C. Spyware<br>
+D. Remote access Trojan<br>
+
+17. A company is looking to migrate some servers to the cloud to minimize its technology footprint. The company has 100
+databases that are on premises.
+Which of the following solutions will require the LEAST management and support from the company?
+
+A. SaaS<br>
+B. IaaS<br>
+C. PaaS<br>
+D. SDN<br>
+
+18. An attacker has determined the best way to impact operations is to infiltrate third-party software vendors. Which of the
+following vectors is being exploited?
+
+A. Social media<br>
+B. Cloud<br>
+C. Supply chain<br>
+D. Social engineering<br>
+
+19. A Chief Information Security officer has defined resiliency requirements for a new data center architecture. The
+requirements are as follows:<br>
+• Critical fileshares will remain accessible during and after a natural disaster.<br>
+• Five percent of hard disks can fail at any given time without impacting the data.<br>
+• Systems will be forced to shut down gracefully when battery levels are below 20%.<br>
+Which of the following are required to BEST meet these objectives? (Select THREE).<br>
+A. Fiber switching<br>
+B. IaC<br>
+C. NAS<br>
+D. RAID<br>
+E. UPS<br>
+F. Redundant power supplies<br>
+G. Geographic dispersal<br>
+H. Snapshots<br>
+I. Load balancing<br>
+
+20. A security administrator suspects there may be unnecessary services running on a server. Which of the following tools will
+the administrator MOST likely use to confirm the suspicions?<br>
+A. Nmap<br>
+B. Wireshark<br>
+C. Autopsy<br>
+D. DNSEnum<br>
 ---
 
 **ANSWERS**
@@ -110,3 +199,13 @@ D. Smishing<br>
 8. D - Transference<br>
 9. C - Dark web<br>
 10. D - Smishing<br>
+11. B - Attempt to quarantine all infected hosts to limit further spread.<br>
+12. C - Hybrid<br>
+13. A - DLP<br>
+14. C - Privilege escalation<br>
+15. A - High data entropy<br>
+16. A - Logic bomb<br>
+17. A - SaaS<br>
+18. C - Supply chain<br>
+19. D, E, G - RAID, UPS, Geographic dispersal<br>
+20. A - Nmap
