@@ -107,15 +107,15 @@ D. Update all endpoint antivirus solutions with the latest updates.<br>
 
 12. A cloud service provider has created an environment where customers can connect existing local networks to the cloud
 for additional computing resources and the block internal HR applications from reaching the cloud.
-Which of the following cloud models is being used?
-*This isn't a question, but there are some similar on the exam*
+Which of the following cloud models is being used?<br>
+*This isn't a question, but there are some similar on the exam*<br>
 A. Public<br>
 B. Community<br>
 C. Hybrid<br>
 D. Private<br>
 
 13. Which of the following is an effective tool to stop or prevent the exfiltration of data from a network?
-*This isn't a question, but there are some similar on the exam*
+*This isn't a question, but there are some similar on the exam*<br>
 
 A. DLP<br>
 B. NIDS<br>
@@ -140,7 +140,7 @@ D. Hashing<br>
 backup, but every time the Chief Financial Officer logs in to the file server, the same files are deleted again. No other
 users are experiencing this issue.
 Which of the following types of malware is MOST likely causing this behavior?<br>
-*Not sure if this was a question, but answer was in a simulation question*
+*Not sure if this was a question, but answer was in a simulation question*<br>
 
 A. Logic bomb<br>
 B. Cryptomalware<br>
@@ -148,8 +148,8 @@ C. Spyware<br>
 D. Remote access Trojan<br>
 
 17. A company is looking to migrate some servers to the cloud to minimize its technology footprint. The company has 100
-databases that are on premises.
-Which of the following solutions will require the LEAST management and support from the company?
+databases that are on premises.<br>
+Which of the following solutions will require the LEAST management and support from the company?<br>
 
 A. SaaS<br>
 B. IaaS<br>
@@ -170,6 +170,7 @@ requirements are as follows:<br>
 • Five percent of hard disks can fail at any given time without impacting the data.<br>
 • Systems will be forced to shut down gracefully when battery levels are below 20%.<br>
 Which of the following are required to BEST meet these objectives? (Select THREE).<br>
+
 A. Fiber switching<br>
 B. IaC<br>
 C. NAS<br>
@@ -186,6 +187,7 @@ A. Nmap<br>
 B. Wireshark<br>
 C. Autopsy<br>
 D. DNSEnum<br>
+
 ---
 
 **ANSWERS**
