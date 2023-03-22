@@ -108,14 +108,13 @@ D. Update all endpoint antivirus solutions with the latest updates.<br>
 **12. A cloud service provider has created an environment where customers can connect existing local networks to the cloud
 for additional computing resources and the block internal HR applications from reaching the cloud.
 Which of the following cloud models is being used?**<br>
-*This isn't a question, but there are some similar on the exam*<br>
+
 A. Public<br>
 B. Community<br>
 C. Hybrid<br>
 D. Private<br>
 
 **13. Which of the following is an effective tool to stop or prevent the exfiltration of data from a network?**
-*This isn't a question, but there are some similar on the exam*<br>
 
 A. DLP<br>
 B. NIDS<br>
@@ -140,7 +139,6 @@ D. Hashing<br>
 backup, but every time the Chief Financial Officer logs in to the file server, the same files are deleted again. No other
 users are experiencing this issue.
 Which of the following types of malware is MOST likely causing this behavior?**<br>
-*Not sure if this was a question, but answer was in a simulation question*<br>
 
 A. Logic bomb<br>
 B. Cryptomalware<br>
@@ -183,6 +181,7 @@ I. Load balancing<br>
 
 **20. A security administrator suspects there may be unnecessary services running on a server. Which of the following tools will
 the administrator MOST likely use to confirm the suspicions?**<br>
+
 A. Nmap<br>
 B. Wireshark<br>
 C. Autopsy<br>
@@ -276,6 +275,7 @@ A. Warm site failover<br>
 B. Tabletop walkthrough<br>
 C. Parallel path testing<br>
 D. Full outage simulation<br>
+
 ---
 
 **ANSWERS**
