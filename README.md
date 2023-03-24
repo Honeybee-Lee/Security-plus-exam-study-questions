@@ -276,6 +276,94 @@ B. Tabletop walkthrough<br>
 C. Parallel path testing<br>
 D. Full outage simulation<br>
 
+**31. Which of the following supplies non-repudiation during a forensics investigation?**<br>
+
+A. Dumping volatile memory contents first<br>
+B. Duplicating a drive with dd<br>
+C. Using a SHA-2 signature of a drive image<br>
+D. Logging everyone in contact with evidence<br>
+E. Encrypting sensitive data<br>
+
+**32. A security administrator is analyzing the corporate wireless network. The network only has two access points running on
+channels 1 and 11. While using airdump-ng, the administrator notices other access points are running with the same
+corporate ESSID on all available channels and with the same BSSID on one of the legitimate access points.**<br>
+
+**Which of the following attacks is happening on the corporate network?**<br>
+
+A. On-path<br>
+B. Evil twin<br>
+C. Jamming<br>
+D. Rogue access point<br>
+E. Dissociation<br>
+
+**33. An IT manager is estimating the mobile device budget for the upcoming year. Over the last five years, the number of
+devices that were replaced due to loss, damage, or theft steadily increased by 10%. Which of the following would BEST describe the estimated number of devices to be replaced next year?**<br>
+
+A. ALE<br>
+B. ARO<br>
+C. RPO<br>
+D. SLE<br>
+
+**34. An organization is repairing the damage after an incident. Which of the following controls is being implemented?**<br>
+
+A. Detective<br>
+B. Preventive<br>
+C. Corrective<br>
+D. Compensating<br>
+
+**35. A security analyst has been tasked with finding the maximum amount of data loss that can occur before ongoing business
+operations are impacted. Which of the following terms best defines this metric?**<br>
+
+A. MTTR<br>
+B. RTO<br>
+C. RPO<br>
+D. MTBF<br>
+
+**36. A security engineer is reviewing the logs from a SAML application that is configured to use MFA. During this review, the
+engineer notices a high volume of successful logins that did not require MFA from users who were traveling
+internationally. The application, which can be accessed without a VPN, has a policy that allows time-based tokens to be
+generated. Users who change locations should be required to reauthenticate but have been able to log in without doing
+so. Which of the following statements BEST explains the issue?**<br>
+
+A. OpenID is mandatory to make the MFA requirements work.<br>
+B. An incorrect browser has been detected by the SAML application.<br>
+C. The access device has a trusted certificate installed that is overwriting the session token.<br>
+D. The users IP address is changing between logins, but the application is not invalidating the token.<br>
+
+**37. A company recently decided to allow its employees to use their personally owned devices for tasks like checking e-mail
+and messaging via mobile applications. The company would like to use MDM, but employees are concerned about the
+loss of personal data. Which of the following should the IT department implement to BEST protect the company against company data loss while still addressing the employees’ concerns?**<br>
+
+A. Enable the remote-wiping option in the MDM software in case the phone is stolen.<br>
+B. Configure the MDM software to enforce the use of pins to access the phone.<br>
+C. Configure MDM for FDE without enabling the lock screen.<br>
+D. Perform a factory reset on the phone before installing the company’s applications.<br>
+
+**38. A company is implementing MFA for all applications that store sensitive data. The IT manager wants MFA to be nondisruptive and user friendly.
+Which of the following technologies should the IT manager use when implementing MFA?**<br>
+
+A. One-time passwords<br>
+B. Email tokens<br>
+C. Push notifications<br>
+D. Hardware authentication<br>
+
+**39. A security analyst is reviewing the latest vulnerability scan report for a web server following an incident. The vulnerability
+report showed no concerning findings. The vulnerability that was used to exploit the server is present in historical
+vulnerability scan reports, and a patch is available for the vulnerability. Which of the following is the MOST likely cause?**<br>
+
+A. Security patches failed to install due to a version incompatibility.<br>
+B. An adversary altered the vulnerability scan reports.<br>
+C. A zero-day vulnerability was used to exploit the web server.<br>
+D. The scan resulted in a false negative for the vulnerability.<br>
+
+**40. The help desk has received calls from users in multiple locations who are unable to access core network services. The
+network team has identified and powered off the network switches using remote commands. Which of the following actions should the network team take NEXT?**<br>
+
+A. Disconnect all external network connections from the firewall.<br>
+B. Send response teams to the network switch locations to perform updates.<br>
+C. Turn all network switches on by using the centralized management software.<br>
+D. Initiate the organizations incident response plan.<br>
+
 ---
 
 **ANSWERS**
@@ -310,3 +398,13 @@ D. Full outage simulation<br>
 data, while providing a functional alternative when real data is not needed.<br>
 29. B - Hover the mouse over the “From:” display name to verify the e-mail address<br>
 30. B - Tabletop walkthrough<br>
+31. C - Using a SHA-2 signature of a drive image; SHA assures that someone cannot deny the validity  by signature and hash.<br>
+32. B - Evil twin<br>
+33. B - ARO; SLE - Single loss expectancy, ARO - Annual rate of occurrence, ALE - Annual loss expentancy, RPO - Recovery point objective<br>
+34. C - Corrective<br>
+35. C - RPO<br>
+36. D - The users IP address is changing between logins, but the application is not invalidating the token; As the users travel internationally, their IP addresses change. By these IP addresses the application should use the location to invalidate the token so a re-authentivation flow is called.<br>
+37. A - Enable the remote-wiping option in the MDM software in case the phone is stolen.<br>
+38. C - Push notifications<br>
+39. D - The scan resulted in a false negative for the vulnerability<br>
+40. C - Turn all network switches on by using the centralized management software<br>
