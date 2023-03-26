@@ -364,6 +364,79 @@ B. Send response teams to the network switch locations to perform updates.<br>
 C. Turn all network switches on by using the centralized management software.<br>
 D. Initiate the organizations incident response plan.<br>
 
+**41. An attacker replaces a digitally signed document with another version that goes unnoticed. Upon reviewing the document contents, the author notices some additional verbiage that was not originally in the document, but cannot validate an integrity issue. Which of the following attacks was used?**<br>
+
+A. Cryptomalware<br>
+B. Hash substitution<br>
+C. Collision<br>
+D. Phishing<br>
+
+**42. Which of the following BEST describes when an organization utilizes a ready to use application from a cloud provider?**<br>
+
+A. Iaas<br>
+B. Saas<br>
+C. PaaS<br>
+D. XaaS<br>
+
+**43. An enterprise has hired an outside security firm to conduct penetration testing on its network and applications. The firm has been given the documentation only available to the customers of the applications. Which of the following BEST represents the type of testing that will occur?**<br>
+
+A. Bug bounty<br>
+B. Black-box<br>
+C. Gray-box<br>
+D. White-box<br>
+
+**44. A user received an SMS on a mobile phone that asked for bank details. Which of the following social engineering technique was used in this case?**<br>
+
+A. SPIM<br>
+B. Vishing<br>
+C. Spear phishing<br>
+D. Smishing<br>
+
+**45. A cybersecurity analyst reviews the log files from a web server and sees a series of files that include a directory-traversal attack has occurred. Which of the following is the analyst MOST likely seeing?**<br>
+
+A. http://sample.url.com/<script>Please-Visit-Our-Phishing-Site</script><br>
+B. http://sample.url.com/someotherpageonsite/../../../etc/shadow<br>
+C. http://sample.url.com/select-from-database-where-password-null<br>
+D. http://redirect.sameple.url.sampleurl.com/malicious-dns-redirect<br>
+
+**46. A vulnerability has been discovered and a known patch to address the vulnerability does not exist. Which of the following controls work BEST until a proper fix is released?**<br>
+
+A. Detective<br>
+B. Compensating<br>
+C. Deterrent<br>
+D. Corrective<br>
+
+**47. During a security assessment, a security analyst finds a file with overly permissive permissions. Which of the following tools will allow the analyst to reduce the permissions for the existing users and groups and remove the set-user-ID bit from the file?**<br>
+
+A. ls<br>
+B. chflags<br>
+C. chmod<br>
+D. lsof<br>
+E. setuid<br>
+
+**48. A company wants to modify its current backup strategy to minimize the number of backups that would need to be restored
+in case of data loss. Which of the following would be the BEST backup strategy to implement?**<br>
+
+A. Incremental backups followed by differential backups<br>
+B. Full backups followed by incremental backups<br>
+C. Delta backups followed by differential backups<br>
+D. Incremental backups followed by Delta backups<br>
+E. Full backups followed by differential backups<br>
+
+**49. The Chief Executive Officer announced a new partnership with a strategic vendor and asked the Chief Information Security Officer to federate user digital identities using SAML-based protocols. Which of the following will this enable?**<br>
+
+A. SSO<br>
+B. MFA<br>
+C. PKI<br>
+D. DLP<br>
+
+**50. Which of the following would MOST likely be identified by a credentialed scan, but would be missed by an uncredentialed scan?**<br>
+
+A. Vulnerabilities with CVSS score greater than 6.9.<br>
+B. Critical infrastructure vulnerabilities on non-IP protocols.<br>
+C. CVEs. Related to non-Microsoft systems such as printers and switches.<br>
+D. Missing patches from third party software on Windows workstations and servers.<br>
+
 ---
 
 **ANSWERS**
@@ -408,3 +481,13 @@ data, while providing a functional alternative when real data is not needed.<br>
 38. C - Push notifications<br>
 39. D - The scan resulted in a false negative for the vulnerability<br>
 40. C - Turn all network switches on by using the centralized management software<br>
+41. C - Collision<br>
+42. B - Saas<br>
+43. C - Gray box<br>
+44. D - Smishing; SPIM stands for "Spam over instant messaging," and refers to unsolicited instant messages. Vishing is voice phishing and is the use of telephones to conduct phishing attacks. Smishing is a form of phishing that uses SMS as the attack platform.<br>
+45. B - http://sample.url.com/someotherpageonsite/../../../etc/shadow<br>
+46. B - Compensating; : Corrective Controls: These information security controls are those countermeasures that every organization must have in advance. This control refers to the actions and plans that help reduce the impact and damage of the data breach or any cyber incident. Until a patch is available, the organization will need to use alternate means to secure it. These are called compensating controls.<br>
+47. E - setuid<br>
+48. E - Full backups followed by differential backups.<br>
+49. A - SSO; SAML empowers SSO (Single-sign-on). SSO implies that clients can sign in once and those equivalent qualifications can be reused to sign into other organizations.<br>
+50. D - Missing patches from third party software on Windows workstations and servers; : Credentialed scans will produce more information and can audit the network. Uncredentialed scan is primitve and only finds missing patches/updates. Uncredentialed scans monitor the network to see the vulnerabilities an attacker can easily find and fixing the vulnerability found<br>
