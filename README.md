@@ -437,6 +437,46 @@ B. Critical infrastructure vulnerabilities on non-IP protocols.<br>
 C. CVEs. Related to non-Microsoft systems such as printers and switches.<br>
 D. Missing patches from third party software on Windows workstations and servers.<br>
 
+**51. A security analyst must harden a network infrastructure. The analyst is given the following requirements:**<br>
+• **Preserve the use of public IP addresses assigned to equipment on the core router.**<br>
+• **Enable in transport encryption protection to the web server with the strongest ciphers.**<br>
+**Which of the following should the analyst implement to meet these requirements? (Select TWO).**<br>
+
+A. Configure VLANs on the core router.<br>
+B. Configure NAT on the core router.<br>
+C. Configure BGP on the core router.<br>
+D. Enable AES encryption on the web server.<br>
+E. Enable 3DES encryption on the web server.<br>
+F. Enable TLSv2 encryption on the web server.<br>
+
+**52. An incident response technician collected a mobile device during an investigation. Which of the following should the technician do to maintain chain of custody?**<br>
+
+A. Document the collection and require a sign off when possession changes.<br>
+B. Lock the device in a safe all over secure location to prevent theft or alteration.<br>
+C. Place the device in a Faraday cage to prevent corruption of the data.<br>
+D. Record the collection in a blockchain- protected public ledger.<br>
+
+**53. A security analyst has been reading about a newly discovered cyber attack from a known threat actor. Which of the following would BEST support the analyst review of the tactics, techniques, and protocols the threat actor was observed using in previous campaigns?**<br>
+
+A. Security research publications<br>
+B. The MITRE ATT&CK framework<br>
+C. The Diamond Model of intrusion analysis<br>
+D. The Cyber Kill Chain<br>
+
+**54. Which of the following is an example of risk avoidance?**<br>
+
+A. Installing security updates directly in production to expedite vulnerability fixes.<br>
+B. Buying insurance to prepare for financial loss associated with exploits.<br>
+C. Not installing new software to prevent compatibility errors.<br>
+D. Not taking preventive measures to stop the theft of equipment.<br>
+
+**55. While checking logs, a security engineer notices a number of end users suddenly downloading files with the .tar.gz extension. Closer examination of the files reveals they are PE32 files. The end users state they did not initiate any of the downloads. Further investigation reveals the end users all clicked on an external email containing an infected MHT file with an href link a week prior. Which of the following is MOST likely occurring?**<br>
+
+A. A RAT was installed and is transferring additional exploit tools.<br>
+B. The workstations are beaconing to a command-and-control server.<br>
+C. A logic bomb was executed and is responsible for the data transfers.<br>
+D. A fileless virus is spreading in the local network environment.<br>
+
 ---
 
 **ANSWERS**
@@ -491,3 +531,8 @@ data, while providing a functional alternative when real data is not needed.<br>
 48. E - Full backups followed by differential backups.<br>
 49. A - SSO; SAML empowers SSO (Single-sign-on). SSO implies that clients can sign in once and those equivalent qualifications can be reused to sign into other organizations.<br>
 50. D - Missing patches from third party software on Windows workstations and servers; : Credentialed scans will produce more information and can audit the network. Uncredentialed scan is primitve and only finds missing patches/updates. Uncredentialed scans monitor the network to see the vulnerabilities an attacker can easily find and fixing the vulnerability found<br>
+51. B, F - Configure NAT on the core router, Enable TLSv2 encryption on the web server.<br>
+52. A - Document the collection and require a sign off when possession changes.<br>
+53. B - The MITRE ATT&CK framework<br>
+54. C - Not installing new software to prevent compatibility errors.<br>
+55. A - A RAT was installed and is transferring additonal exploit tools.<br>
