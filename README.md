@@ -505,6 +505,13 @@ A. Test plan<br>
 B. Maintenance windows<br>
 C. Impact analysis<br>
 D. Backout plan<br>
+
+**60. After encountering a cyber attack, an organization uses a monitoring solution that automatically restarts services after it has detected the system has crashed. What type of functional security control is the company implementing?**<br>
+
+A. Corrective<br>
+B. Compensating<br>
+C. Technical<br>
+D. Managerial<br>
 ---
 
 **ANSWERS**
@@ -568,5 +575,4 @@ data, while providing a functional alternative when real data is not needed.<br>
 57. A & C; Project manager and Team leader
 58. D - Public key infrastructure
 59. D - Backout plan
-. 
-      
+60. A - Corrective
