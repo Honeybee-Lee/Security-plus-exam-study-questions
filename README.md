@@ -477,6 +477,34 @@ B. The workstations are beaconing to a command-and-control server.<br>
 C. A logic bomb was executed and is responsible for the data transfers.<br>
 D. A fileless virus is spreading in the local network environment.<br>
 
+**56. A senior analyst is purchasing new cybersecurity tools that enhance the ability to detect and defend against various types of attacks. What decoy system can support detection efforts by mimicking a specific application and gathering information on the attacker's tactics and tools?**<br>
+
+A. Honeyfile<br>
+B. Honeynet<br>
+C. Honeypot<br>
+D. Honeytoken<br>
+
+**57. After receiving the annual audit results from the Inspector General's office, a cyber specialist begins identifying improvements to existing change management processes. Which of the following roles would likely own the change management process? (SELECT THE TWO BEST OPTIONS)**<br>
+
+A. Project manager<br>
+B. Vendors<br>
+C. Team leader<br>
+D. Partners<br>
+
+**58. You are the cybersecurity manager at a company that regularly handles senstive customer data. To enhance the security of data transmissions between server and client systems, you have decided to implement a system to support data integrity, confidentiality, authentication, management of encryption keys, and digital signatures. Which system is best suited to this goal?**<br>
+
+A. Virtual Private Network (VPN)<br>
+B. Firewall<br>
+C. Intrusion Detection System (IDS)<br>
+D. Public Key Infrastructure (PKI)<br>
+
+
+**59. The system administration team identified a critical server that crashed after deploying a new set of patches. After troubleshooting the issue, the team determined that the new patches directly caused the crash. What is needed to restore functionality to the critical server confidently?**<br>
+
+A. Test plan<br>
+B. Maintenance windows<br>
+C. Impact analysis<br>
+D. Backout plan<br>
 ---
 
 **ANSWERS**
@@ -536,3 +564,9 @@ data, while providing a functional alternative when real data is not needed.<br>
 53. B - The MITRE ATT&CK framework<br>
 54. C - Not installing new software to prevent compatibility errors.<br>
 55. A - A RAT was installed and is transferring additonal exploit tools.<br>
+56. C - Honeypot<br>
+57. A & C; Project manager and Team leader
+58. D - Public key infrastructure
+59. D - Backout plan
+. 
+      
